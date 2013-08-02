@@ -27,10 +27,10 @@
 			?>
 	</head>
 	<body>
-	<!-- ein MB = 2.097.252 Bytes -->
+	<!-- zwei MB = 2.097.252 Bytes -->
 	<form method="post" enctype="multipart/form-data">
 		<input type="file" name="datei"><br>
 		<input type="submit" value="Hochladen" name="upload">
-	</form
+	</form> 
 	</body>
 </html>
