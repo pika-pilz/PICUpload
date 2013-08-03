@@ -10,9 +10,9 @@
 				{
 					if($_FILES['datei']['size'] < 2097252)
 					{
-						move_uploaded_file($_FILES['datei']['tmp_name'], "upload/$dateiname");
+						move_uploaded_file($_FILES['datei']['tmp_name'], "upload/".$dateiname.");
 						echo "Dein Bild wurde Erfolgreich hochgeladen.";
-						echo "Link zur Grafik: <a href='http://url.de/upload/$dateiname'>http://url/upload/$dateiname</a>";
+						echo "Link zur Grafik: <a href='http://url.de/upload/".$dateiname."'>http://url/upload/".$dateiname."</a>";
 					}
 					else
 					{
